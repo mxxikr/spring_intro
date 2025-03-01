@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MemberServiceIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MemberServiceIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mxxikr.springintro.service.html">com.mxxikr.springintro.service</a> &gt; MemberServiceIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.117s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">duplicateMemberTest()</td>
+<td class="success">1.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinTest()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:05:47.618 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mxxikr.springintro.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:05:47.749 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mxxikr.springintro.SpringIntroApplication for test class com.mxxikr.springintro.service.MemberServiceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+?[32m :: Spring Boot :: ?[39m              ?[2m (v3.2.4)?[0;39m
+
+?[2m2024-10-04T00:05:48.216+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.m.s.s.MemberServiceIntegrationTest    ?[0;39m ?[2m:?[0;39m Starting MemberServiceIntegrationTest using Java 17.0.6 with PID 24304 (started by g_eun in D:\00_CODE\spring\spring-intro)
+?[2m2024-10-04T00:05:48.220+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.m.s.s.MemberServiceIntegrationTest    ?[0;39m ?[2m:?[0;39m No active profile set, falling back to 1 default profile: &quot;default&quot;
+?[2m2024-10-04T00:05:49.115+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[2m2024-10-04T00:05:49.139+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+?[2m2024-10-04T00:05:49.626+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mo.hibernate.jpa.internal.util.LogHelper ?[0;39m ?[2m:?[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+?[2m2024-10-04T00:05:49.706+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.Version                   ?[0;39m ?[2m:?[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+?[2m2024-10-04T00:05:49.747+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mo.h.c.internal.RegionFactoryInitiator   ?[0;39m ?[2m:?[0;39m HHH000026: Second-level cache disabled
+?[2m2024-10-04T00:05:50.038+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mo.s.o.j.p.SpringPersistenceUnitInfo     ?[0;39m ?[2m:?[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+?[2m2024-10-04T00:05:50.073+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Starting...
+?[2m2024-10-04T00:05:50.179+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.pool.HikariPool       ?[0;39m ?[2m:?[0;39m HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+?[2m2024-10-04T00:05:50.181+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Start completed.
+?[2m2024-10-04T00:05:51.119+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mo.h.e.t.j.p.i.JtaPlatformInitiator      ?[0;39m ?[2m:?[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[2m2024-10-04T00:05:51.122+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mj.LocalContainerEntityManagerFactoryBean?[0;39m ?[2m:?[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[2m2024-10-04T00:05:51.372+09:00?[0;39m ?[33m WARN?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mJpaBaseConfiguration$JpaWebConfiguration?[0;39m ?[2m:?[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[2m2024-10-04T00:05:51.399+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mo.s.b.a.w.s.WelcomePageHandlerMapping   ?[0;39m ?[2m:?[0;39m Adding welcome page: class path resource [static/index.html]
+?[2m2024-10-04T00:05:51.904+09:00?[0;39m ?[32m INFO?[0;39m ?[35m24304?[0;39m ?[2m---?[0;39m ?[2m[spring-intro] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.m.s.s.MemberServiceIntegrationTest    ?[0;39m ?[2m:?[0;39m Started MemberServiceIntegrationTest in 3.966 seconds (process running for 5.291)
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: insert into member (name,id) values (?,default)
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: insert into member (name,id) values (?,default)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2024. 10. 4. 오전 12:05:53</p>
+</div>
+</div>
+</body>
+</html>
